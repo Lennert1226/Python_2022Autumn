@@ -1,0 +1,15 @@
+from tkinter import *
+root = Tk()
+root.geometry("400x400+150+200")
+mybutton1 = Button(root, text = "button1")
+mybutton2 = Button(root, text = "button2")
+mybutton3 = Button(root, text = "button3")
+mybutton4 = Button(root, text = "button4")
+mybutton5 = Button(root, text = "button5")
+
+mybutton1.pack(fill = X)
+mybutton2.pack(side = "left", fill = Y)
+mybutton3.pack(side = "left")
+mybutton4.pack(side = "right")
+mybutton5.pack(side = "top")
+root.mainloop()

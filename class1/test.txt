@@ -1,0 +1,60 @@
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git add .
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   20220925.py
+
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git commit
+Aborting commit due to empty commit message.
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> mmm
+mmm : 無法辨識 'mmm' 詞彙是否為 Cmdlet、函數、指令檔或可執行程式的名稱。請檢查名稱拼字是否正確，如果包含路徑的話，請確認路徑是否正確，然後再試一次。
+位於 線路:1 字元:1
++ mmm
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (mmm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   20220925.py
+
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> class3
+class3 : 無法辨識 'class3' 詞彙是否為 Cmdlet、函數、指令檔或可執行程式的名稱。請檢查名稱拼字是否正確，如果包含路徑的話，請確認路徑是否正確，然後再試一次。
+位於 線路:1 字元:1
++ class3
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (class3:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git commit -m"class3"
+[master b32aaa1] class3
+ 1 file changed, 102 insertions(+)
+ create mode 100644 class3/20220925.py
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.31 KiB | 191.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:Lennert1226/Python_2022Autumn.git
+   e12dbe6..b32aaa1  master -> master
+PS C:\Users\SP513-52N\Documents\Python_2022Autumn\class3>
+
+

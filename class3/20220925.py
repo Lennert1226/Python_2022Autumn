@@ -71,7 +71,7 @@ person1.printAttribute()
 person2 = FullName("Lulu","Cheng")
 person2.printAttribute()
 
-class shoes:
+class Shoes:
     def __init__(self,gender,size):
         self.gender = gender
         self.size = size
@@ -79,9 +79,9 @@ class shoes:
     def printAttribute(self):
         print("I am a "+str(self.gender)+", and my shoe size is US "+str(self.size))
 
-person1 = shoes("boy","9")
+person1 = Shoes("boy","9")
 person1.printAttribute()
-person2 = shoes("girl","7")
+person2 = Shoes("girl","7")
 person2.printAttribute()
 
 class People:
